@@ -1,0 +1,67 @@
+---
+title: "Confirm your email address"
+preheader: "Please confirm your email address in order to activate your account."
+bodyClass: bg-slate-50
+---
+
+<x-main>
+  <block name="head">
+    <style>
+      @font-face {
+        font-family: 'satoshi';
+        font-style: normal;
+        font-weight: 400;
+        src: local('satoshi'), local('satoshi'), url("../fonts/Satoshi-Bold.woff2") format("woff2");
+      }
+    </style>
+  </block>
+  <div class="bg-slate-100 sm:px-4 font-sans h-screen p-20 drop-shadow-2xl">
+    <table align="center">
+      <tr>
+        <td class="w-[552px] max-w-full h-[300px] ">
+          <table class="w-full relative overflow-hidden rounded-3xl">
+            <tr>
+              <td class="p-12 sm:px-6 text-base text-slate-700 bg-white rounded shadow-sm flex flex-col justify-center items-center">
+                <div class='absolute -top-10 bg-appBlue   sm:h-[15%]  h-1/5  w-screen z-0' style="transform: rotate(-5deg)">
+                </div>
+              
+              <div class="text-center z-10">
+                <img src="images/logo.png" width="70" alt="Maizzle">
+              </div>
+                                <x-spacer height="15px" />
+
+
+                <h1 class="m-0 mb-6 text-2xl sm:leading-8 text-black font-semibold text-center">
+                   Réinitialisation <br> de mot de passe
+                </h1>
+                                <x-spacer height="24px" />
+
+                <button class="h-12 rounded-2xl bg-appBlue px-8 text-sm text-white border-none font-bold">Réinitialiser le mot de passe</button>
+
+                                <x-spacer height="24px" />
+                                <x-spacer height="24px" />
+
+
+
+                <h2 class="m-0 mb-1 text-xl sm:leading-8 text-black font-medium text-center">
+                  Vous n'êtes pas a l'origine de cette demande ?
+                </h2>
+                <h2 class="m-0 mb-6 text-sm sm:leading-8 text-black font-medium text-center">
+                  Vous pouvez ignorer cette email.
+                </h2>
+
+                <x-spacer height="24px" />
+                <div class="mb-4 mt-4 h-px w-full justify-center bg-slate-200"></div>
+                <p class="w-4/5 text-sm font-medium">Pour toutes questions, contactez-nous sur <a class="underline text-appBlue font-medium" href="mailto:hello@coachly.fr">hello@coachly.fr</a> ou rendez vous sur <a class="underline text-appBlue font-medium" href="@">www.coachly-sport.fr</a></p>
+                <x-spacer height="24px" />
+                <div class="h-px w-full justify-center bg-slate-200"></div>
+                <x-spacer height="15px" />
+               <p class="text-sm font-semibold">Coachly.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>
